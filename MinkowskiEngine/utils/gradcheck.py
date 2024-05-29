@@ -50,7 +50,7 @@ def gradcheck(
         atol=atol,
         rtol=rtol,
         raise_exception=raise_exception,
-        check_sparse_nnz=check_sparse_nnz,
+        # check_sparse_nnz=check_sparse_nnz,
         nondet_tol=nondet_tol,
         check_undefined_grad=check_undefined_grad,
         check_grad_dtypes=check_grad_dtypes,
